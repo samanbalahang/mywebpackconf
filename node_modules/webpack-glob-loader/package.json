@@ -1,0 +1,36 @@
+{
+  "name": "webpack-glob-loader",
+  "version": "1.0.0",
+  "description": "ES6 import with glob patterns (preload for Webpack)",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Danh Le",
+    "url": "https://github.com/danh20051995"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "glob",
+    "es6"
+  ],
+  "dependencies": {
+    "glob": "^5.0.15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "6.1.0",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.0",
+    "webpack": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danh20051995/webpack-glob-loader"
+  }
+}

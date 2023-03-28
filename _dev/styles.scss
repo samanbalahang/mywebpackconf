@@ -1,0 +1,11 @@
+$gradient: linear-gradient(to right, #00467f, #a5cc82);
+body
+{
+ background-image: $gradient;
+}
+#gol{
+    background-image: url("a.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
